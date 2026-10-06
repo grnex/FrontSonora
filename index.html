@@ -8,14 +8,47 @@
 
 </head>
 <body>
-    <h2>Nome de Música</h2>
-    <p>Nome Artista</p>
-    <img src="imagenes/capa.png" alt="capa de musica">
-    <button type="" id="play"><img src="imagenes/play-buttton.png" alt="pause"></button>
-    <button type=""><img src="imagenes/pause.png" alt="pausa"></button>
-    <button type=""><img src="imagenes/forward-button.png" alt="next"></button>
-    <button type=""><img src="imagenes/previous.png" alt="retrasar"></button>
+    <div class="player">
+        
+        <div class="titulos" >
+            <img src="imagenes/capa.png" alt="capa de musica">
+            <h3 id="nome_musica">Nome de Música</h2>
+            <p id="nome_artista">Nome Artista</p>
+        </div>
+        
+
+        <div class="controles">
+            <button type="" id="retrasar"><img src="imagenes/rewind-button.png" alt="retrasar"></button>
+            <button type="" id="play"><img src="imagenes/play-buttton.png" alt="pause"></button>
+            <button type="" id="pause"><img src="imagenes/pause.png" alt="pausa"></button>
+            <button type="" id="next"><img src="imagenes/forward-button.png" alt="next"></button>
+            
+        </div>
+        <div class="prograsso">
+            <span id="tempoAtual">00:00
+
+            </span>
+            <input 
+                type="range"
+                id="barra"
+                min="0" 
+                value="0">
+            </input>
+
+            <span
+                id="duracao"
+                >00:00
+                
+            </span>
+
+        </div>
+        <div class="clearfix"></div>
+        <footer>
+            <small>&copy; Senai 2026 Media Player</small>
+        </footer>
+    
+    </div>
     
 </body>
-<footer>&copy; Senai 2026 Media Player</footer>
+
 </html>
