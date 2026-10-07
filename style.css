@@ -39,11 +39,16 @@ button img{
     
 
 }
-
+/* 
 footer{
     text-align: center;
     height: 50px;
-    line-height: 50px;
+    line-height: 50px; */
     
-    
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
 }
+/* } */
