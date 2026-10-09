@@ -9,46 +9,68 @@
 </head>
 <body>
     <div class="player">
+
+        <header>Media player Senai</header>
+
+        <main>
+            <div class="titulos" >
+                <img src="imagenes/capa.png" alt="capa">
+                <h3 id="nome_musica">Nome de Música</h2>
+                <p id="nome_artista">Nome Artista</p>
+            </div>
         
-        <div class="titulos" >
-            <img src="imagenes/capa.png" alt="capa de musica">
-            <h3 id="nome_musica">Nome de Música</h2>
-            <p id="nome_artista">Nome Artista</p>
-        </div>
-        
 
-        <div class="controles">
-            <button type="" id="retrasar"><img src="imagenes/rewind-button.png" alt="retrasar"></button>
-            <button type="" id="play"><img src="imagenes/play-buttton.png" alt="pause"></button>
-            <button type="" id="pause"><img src="imagenes/pause.png" alt="pausa"></button>
-            <button type="" id="next"><img src="imagenes/forward-button.png" alt="next"></button>
-            
-        </div>
-        <div class="prograsso">
-            <span id="tempoAtual">00:00
-
-            </span>
-            <input 
-                type="range"
-                id="barra"
-                min="0" 
-                value="0">
-            </input>
-
-            <span
-                id="duracao"
-                >00:00
+            <div class="controles">
+                <button type="" id="retrasar"><img src="imagenes/rewind-button.png" alt="retrasar"></button>
+                <button type="" id="play"><img src="imagenes/play-buttton.png" alt="pause"></button>
+                <button type="" id="pause"><img src="imagenes/pause.png" alt="pausa"></button>
+                <button type="" id="next"><img src="imagenes/forward-button.png" alt="next"></button>
                 
-            </span>
+            </div>
 
-        </div>
-        <div class="clearfix"></div>
-        <footer>
+            
+
+
+
+            <div class="progresso">
+                <span id="tempoAtual">00:00
+
+                </span>
+                <input 
+                    type="range"
+                    id="barra"
+                    min="0" 
+                    value="0">
+                </input>
+
+                <span
+                    id="duracao"
+                    >00:00
+                    
+                </span>
+                
+                🔊 
+                <input 
+                    type="range"
+                    id="barraV"
+                    min="0" 
+                    value="0">
+                </input>
+
+            </div>
+
+             <footer>
             <small>&copy; Senai 2026 Media Player</small>
-        </footer>
-    
-    </div>
+            </footer>
+        
+        
+        </main>
+
+         
+        
+     </div>
     
 </body>
+
 
 </html>
